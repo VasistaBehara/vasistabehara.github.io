@@ -1,0 +1,36 @@
+# Site Settings
+title: Vasista Behara | DevOps & Cloud Engineer
+description: "Senior DevOps & Cloud Engineer with 5+ years of experience delivering secure, scalable infrastructure across AWS and GCP"
+author: Vasista Avinash Behara
+email: vbehara96@gmail.com
+url: "https://vasistabehara.github.io"
+baseurl: ""
+
+# Social Links
+linkedin: vasista-avinash-behara
+github: vasistabehara
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - resume
+  - .gitignore
+  - vendor
+
+# Plugins (GitHub Pages compatible)
+plugins:
+  - jekyll-seo-tag
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
