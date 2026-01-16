@@ -56,11 +56,7 @@ permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
 
-header_pages:
-  - _pages/about.md
-  - _pages/projects.md
-  - _pages/resume.md
-  - _pages/contact.md
+header_pages: []
 
 social:
   type: Person

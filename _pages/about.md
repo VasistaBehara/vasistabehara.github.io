@@ -20,3 +20,7 @@ I am a DevOps / Cloud Engineer who builds reliable delivery platforms across AWS
 - CI/CD automation with GitHub Actions and GitLab.
 - Observability stacks with CloudWatch, ELK, Prometheus, and Grafana.
 - Security, IAM, and SOC 2-aligned controls embedded into delivery workflows.
+
+---
+
+This content is consolidated on the homepage: [vasistabehara.github.io](/)

@@ -1,0 +1,17 @@
+---
+---
+
+@import "minimal-mistakes";
+
+.cert-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.cert-badge {
+  width: 120px;
+  height: auto;
+}

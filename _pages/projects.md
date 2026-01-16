@@ -38,3 +38,7 @@ permalink: /projects/
 **Solution:** Integrated IAM hardening, secrets management, and compliance checks into pipelines and infrastructure code. Added audit-friendly logging and access patterns across AWS and GCP.  
 **Technologies:** IAM, Terraform, CloudFormation, GitHub Actions, GitLab CI, CloudWatch.  
 **Impact:** Reduced security risk and simplified audits through built-in guardrails and traceability.
+
+---
+
+This content is consolidated on the homepage: [vasistabehara.github.io](/)

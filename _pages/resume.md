@@ -64,3 +64,7 @@ permalink: /resume/
 
 ## Download
 [Download PDF](/assets/Vasista_Avinash_Behara_Resume.pdf) — replace with your latest resume file.
+
+---
+
+This content is consolidated on the homepage: [vasistabehara.github.io](/)
