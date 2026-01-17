@@ -1,0 +1,17 @@
+<section id="about" class="hero">
+    <div class="container">
+        <h1 class="animate-fade-in">{{ site.data.resume.basics.name }}</h1>
+        <p class="lead">{{ site.data.resume.basics.label }}</p>
+
+        <p style="max-width: 700px; margin: 0 auto 30px; color: #8b949e;">
+            {{ site.data.resume.summary }}
+        </p>
+
+        <div class="social-links">
+            <a href="{{ site.data.resume.basics.email | prepend: 'mailto:' }}" class="btn btn-primary"
+                style="margin-right: 15px;">Contact Me</a>
+            <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="{{ site.data.resume.basics.profiles[0].url }}" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</section>

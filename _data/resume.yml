@@ -1,0 +1,126 @@
+basics:
+  name: Vasista Avinash Behara
+  label: Senior DevOps & Cloud Engineer
+  email: vbehara96@gmail.com
+  phone: "+18073565984"
+  website: https://vasistabehara.github.io
+  location: 
+    city: GTA
+    region: Canada
+    countryCode: CA
+  profiles:
+    - network: LinkedIn
+      username: vasista-avinash-behara
+      url: https://www.linkedin.com/in/vasista-avinash-behara
+    - network: GitHub
+      username: vasistabehara
+      url: https://github.com/vasistabehara
+
+summary: |
+  5+ years of experience as a DevOps & Cloud Engineer, delivering secure, scalable, and cost-optimized infrastructure across AWS and GCP environments. Designed and provisioned infrastructure using CloudFormation and Terraform, supporting high availability. Built/managed CI/CD pipelines (GitLab, GitHub Actions) for Python, Node.js, and Flutter apps. Skilled in containerization (Docker, Kubernetes/EKS/GKE, Helm), serverless (Lambda), and observability (Prometheus, Grafana, ELK). committed to security (IAM, KMS, Cloud Armor) and cost optimization.
+
+work:
+  - company: Citywide Automation
+    position: DevOps Engineer
+    startDate: "2021-04-01"
+    endDate: Current
+    location: GTA, Canada
+    summary: |
+      Designed and provisioned AWS infrastructure (EC2, VPC, EKS, RDS, etc.) using CloudFormation. Deployed Docker microservices to EKS with Helm. Managed frontend deployments (S3+CloudFront) and automated pipelines with self-hosted GitLab CI. Implemented security controls (IAM, Secrets Manager, KMS) and optimized costs (Spot Instances, Savings Plans).
+    highlights:
+      - Designed and provisioned AWS cloud infrastructure using CloudFormation (EC2, VPC, IAM, RDS, S3, CloudFront, EKS, NLB).
+      - Deployed Docker-based microservices to Kubernetes (EKS) using Helm charts; ensured HA and auto-scaling.
+      - Exposed K8s workloads via NLBs integrated with API Gateway.
+      - Managed DNS via Route 53 and GoDaddy.
+      - Deployed Flutter frontend on S3 + CloudFront.
+      - Developed self-hosted GitLab CI/CD pipelines.
+      - Managed container lifecycle with ECR.
+      - Monitored health using CloudWatch and self-hosted ELK stack.
+      - Implemented security (IAM, Secrets Manager, KMS, firewall rules).
+      - Configured networking (TCP/IP, VPC peering, VPNs).
+      - Set up JIRA and Confluence for agile tracking.
+      - Optimized AWS spend using Savings Plans and Spot Instances.
+      - Utilized Cognito for auth and SES for emails.
+      - Developed serverless Python Lambda functions for automation.
+
+  - company: Behara Consulting Inc (Owner)
+    position: Freelance Cloud Engineer
+    startDate: "2020-03-01"
+    endDate: Current
+    location: GTA, Canada
+    summary: |
+      Designed and provisioned GCP infrastructure with Terraform. Built CI/CD workflows with GitHub Actions. Managed containerized apps on GKE and App Engine. Maintained SOC 2 compliance and implemented security best practices.
+    highlights:
+      - Designed GCP infrastructure using Terraform and GitHub Actions.
+      - Built CI/CD workflows with GitHub Actions.
+      - Deployed apps on GKE and App Engine to Docker/K8s.
+      - Managed Cloud SQL, Redis, BigQuery, Firebase.
+      - Deployed mono-repo apps (Node.js, Flutter) in GKE Autopilot.
+      - Implemented IAM, Cloud Armor, VPC Service Controls.
+      - Maintained SOC 2 compliance using Security Command Center.
+      - Configured Prometheus, Grafana, GCP Monitoring/Logging.
+      - Set up proactive alerting and incident response.
+      - Managed DNS (Cloud DNS, GoDaddy) and secure VPCs.
+      - Enabled CDN and IAP for secure delivery.
+      - Supported devs with WireMock, Mailpit, Lens.
+      - Used Cloud Run with functions for web apps.
+
+education:
+  - institution: Lakehead University
+    area: Computer Science
+    studyType: MS
+    startDate: "2017-01-01"
+    endDate: "2019-01-01"
+    location: Canada
+  - institution: Narasaraopeta Engineering College
+    area: Computer Science
+    studyType: B.Tech.
+    startDate: "2013-01-01"
+    endDate: "2017-01-01"
+    location: India
+
+skills:
+  - name: Cloud Platforms
+    keywords: [AWS, GCP]
+  - name: IaC & CM
+    keywords: [Terraform, Ansible, CloudFormation, Chef]
+  - name: CI/CD
+    keywords: [GitLab CI, GitHub Actions, Jenkins]
+  - name: Containerization
+    keywords: [Docker, Kubernetes, Helm, EKS, GKE, ECS]
+  - name: Languages
+    keywords: [Python, Bash, Java, YAML]
+  - name: Databases
+    keywords: [MySQL, Postgres, DynamoDB, RDS, Cloud SQL, Redis]
+  - name: Monitoring
+    keywords: [Grafana, Prometheus, ELK Stack, CloudWatch, Datadog]
+  - name: Security
+    keywords: [IAM, KMS, WAF/Cloud Armor, Secrets Manager]
+  - name: Networking
+    keywords: [VPC, DNS/Route53, Load Balancing, VPN, CDN]
+
+certifications:
+  - name: AWS Certified Solutions Architect – Associate
+    issuer: AWS
+    date: "2025-08-18"
+    expires: "2028-08-18"
+    url: "https://www.credly.com/badges/ab5cfd83-dd80-4a14-acc4-2319b36133e3"
+    image: "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+  - name: AWS Certified AI Practitioner
+    issuer: AWS
+    date: "2025-11-04"
+    expires: "2028-11-04"
+    url: "https://www.credly.com/badges/7bbd0c3f-ce33-4e4f-a6bf-9c40fe80f883"
+    image: "https://images.credly.com/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png"
+  - name: AWS Certified Cloud Practitioner
+    issuer: AWS
+    date: "2024-05-29"
+    expires: "2028-08-18"
+    url: "https://www.credly.com/badges/8b4d2c5e-fe42-412b-b30c-72bb7ef35e54"
+    image: "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+  - name: GCP Cloud Digital Leader
+    issuer: Google Cloud
+    date: "2024-01-20"
+    expires: "2027-01-20"
+    url: "https://www.credly.com/badges/e3db0b29-d7f0-4510-8d08-78423f0ee1d7"
+    image: "https://images.credly.com/images/44994cda-b5b0-44cb-9a6d-d29b57163073/image.png"

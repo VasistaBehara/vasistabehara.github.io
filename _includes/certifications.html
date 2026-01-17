@@ -1,0 +1,27 @@
+<section id="certifications" class="section">
+    <div class="container">
+        <h2 class="section-title">Certifications</h2>
+
+        <div class="certs-grid">
+            {% for cert in site.data.resume.certifications %}
+            <div class="cert-card">
+                <div>
+                    {% if cert.image %}
+                    <img src="{{ cert.image }}" alt="{{ cert.name }} Badge">
+                    {% else %}
+                    <div style="font-size: 3rem; color: #58a6ff; margin-bottom: 15px;"><i
+                            class="fas fa-certificate"></i></div>
+                    {% endif %}
+                    <h4>{{ cert.name }}</h4>
+                    <p>Issued: {{ cert.date | date: "%b %Y" }}</p>
+                    {% if cert.expires %}
+                    <p>Expires: {{ cert.expires | date: "%b %Y" }}</p>
+                    {% endif %}
+                </div>
+                <a href="{{ cert.url }}" target="_blank" class="verify-link">Verify <i
+                        class="fas fa-external-link-alt"></i></a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

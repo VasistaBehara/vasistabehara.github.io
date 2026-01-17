@@ -1,0 +1,78 @@
+Vasista Avinash Behara
++18073565984 | vbehara96@gmail.com 
+www.linkedin.com/in/vasista-avinash-behara
+Summary
+
+•	5+ years of experience as a DevOps & Cloud Engineer, delivering secure, scalable, and cost-optimized infrastructure across AWS and GCP environments.
+•	Designed and provisioned infrastructure using CloudFormation for AWS and Terraform for GCP, supporting high availability and automated deployments.
+•	Built and managed CI/CD pipelines with GitLab and GitHub Actions for mono-repo and microservice applications developed in Python, Node.js, and Flutter.
+•	Deployed containerized apps with Docker and Kubernetes (EKS/GKE) using Helm, integrating API Gateway, NLBs, and secure VPC networking.
+•	Personally implemented and maintained self-hosted, open-source tools such as GitLab CE, ELK Stack, Prometheus, Grafana, Mailpit, and WireMock to ensure full control and cost efficiency.
+•	Managed frontend deployments with S3 + CloudFront, backend on App Engine, mobile services on Firebase, and secure DNS via Route 53, GoDaddy, and Cloud DNS.
+•	Enforced security and compliance using IAM, Secrets Manager, KMS, VPNs, Cloud Armor, SOC 2 controls, and optimized cost via Spot Instances, Savings Plans, Committed-use Discounts and serverless functions (Lambda).
+
+Certifications
+•	AWS: Certified Solutions Architect Associate
+•	AWS: Certified Cloud Practitioner
+•	AWS: Certified AI Practitioner
+•	GCP: Cloud Digital Leader
+
+Experience
+DevOps Engineer
+Citywide Automation | April 2021 – Current |GTA, Canada
+
+•	Designed and provisioned AWS cloud infrastructure using CloudFormation templates, covering services such as EC2, VPC, IAM, RDS, S3, CloudFront, EKS, and NLB.
+•	Deployed Docker-based microservices to Kubernetes (EKS) using Helm charts for python-based backend application, ensuring high availability and dynamic auto-scaling.
+•	Exposed Kubernetes workloads via Network Load Balancers and integrated them with API Gateway for managed HTTP access.
+•	Managed DNS across applications using Route 53 and GoDaddy for domain resolution and traffic routing.
+•	Deployed Flutter based frontend applications using S3 static hosting, paired with CloudFront for globally distributed, low-latency content delivery.
+•	Developed and maintained a self-hosted GitLab CI/CD pipeline to automate build, test, and deployment processes across multiple environments.
+•	Handled container image lifecycle and storage using Docker Hub and Amazon ECR.
+•	Monitored infrastructure and application health using AWS CloudWatch and a cost-optimized, self-hosted ELK stack after multiple tuning iterations.
+•	Implemented security controls leveraging IAM, Secrets Manager, KMS, and custom firewall rules to enforce secure access and compliance.
+•	Configured and maintained networking components including TCP/IP, VPC peering, VPNs, and DNS, enabling secure connectivity to client IoT devices.
+•	Set up JIRA for agile task tracking, linked tasks with Confluence documentation for transparency and reproducibility.
+•	Optimized AWS spend using cost-saving strategies such as Ec2 Savings Plans, Spot Instances, Self hosted Gitlab and ELK.
+•	Utilized Amazon Cognito for user authentication and authorization, and Amazon SES for transactional email services.
+•	Developed lightweight serverless applications in Python using AWS Lambda for scheduled jobs, infrastructure automation, and event-driven use cases.
+
+Freelance Cloud Engineer
+Behara Consulting Inc(owner) | Mar 2020 – Current | GTA, Canada
+•	Designed and provisioned cloud infrastructure in GCP using Terraform and GitHub Actions.
+•	Built and maintained CI/CD workflows using GitHub Actions for automated testing and deployment.
+•	Deployed and managed containerized applications on GKE and App Engine using Docker and Kubernetes.
+•	Managed services like Cloud SQL, Redis Memorystore, BigQuery, Cloud Build, and Firebase for backend and mobile apps.
+•	Deployed mono-repo applications (Node.js, Flutter) in GCP GKE autopilot clusters using GitHub Actions.
+•	Implemented IAM roles, Cloud Armor policies, VPC Service Controls, and Secrets Management for secure cloud access.
+•	Maintained SOC 2 compliance by enforcing GCP security best practices and using Security Command Center and audit logging.
+•	Configured Prometheus, Grafana, GCP Monitoring, Logging, and Trace to observe infrastructure and application health.
+•	Set up proactive alerting and incident response mechanisms for production workloads.
+•	Managed DNS via GoDaddy and GCP Cloud DNS; configured secure VPCs, and Firewall rules.
+•	Enabled CDN and IAP for secure and high-performance application delivery.
+•	Supported developers with tools like WireMock (mock services), Mailpit (email testing), and Lens (K8s GUI).
+•	Used VS Code, Xcode, Slack, and ClickUp to streamline workflows and communication across teams.
+•	Used Cloud run with functions and images to deploy and run web applications 
+•	Working knowledge of Java through academic projects, including REST API development and microservice patterns
+
+Tech Stack
+
+•	Languages/Scripting		:	Java, YAML, Bash, Python
+•	Cloud platforms                	:	AWS, GCP
+•	Databases			:	MySQL, Postgres
+•	Containerization		:	Docker, Kubernetes, helm, eksctl
+•	Docker Registries		:	Docker Hub, GCR, ECR
+•	Source code management	:	GIT, GitHub, GitLab
+•	OS				:	Ubuntu, Debian, Mac, Windows, IOS
+•	IaC				:	Terraform, Ansible, Gitlab pipelines, GitHub Actions, AWS CloudFormation, Chef
+•	Networking			:	TCP/IP, VPC, VPN, Firewall, DNS, GoDaddy, load balancing
+•	Security Tools			:	IAM, Cloud Armor, KMS, Firewall, secrets, TLS, SSL
+•	Monitoring and Observability	:	Grafana, Prometheus, ELK Stack (Elasticsearch, Logstash, Kibana), Fluent bit, CloudWatch, new relic, Data Dog
+•	AWS				:	EC2, IAM, VPC, EKS, ECS, RDS, S3, Cognito, CloudFront, ECR, SNS, SES, API Gateway, Route 53, Systems Manager, EBS, EFS, Lambda, Secrets Manager, Config, Security Hub, CloudWatch, DynamoDB, Control tower
+•	GCP				:	Compute Engine, IAM, GKE, App Engine, Cloud SQL, Redis Memorystore, GCR (Artifact Registry), VPC, CDN, DNS, Armor, Big Query, Security Command Center, Cloud Build, trace, Monitoring, logging, IAP, Firebase, cloud run
+•	Tools				:	JIRA, Confluence, Slack, WireMock, Mailpit, ClickUp, lens, vs code, Xcode
+
+Education
+MS, Computer Science 2017 - 2019
+Lakehead University, Canada
+B.Tech., Computer Science 2013 – 2017
+Narasaraopeta Engineering College, India

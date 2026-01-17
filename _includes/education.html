@@ -1,0 +1,15 @@
+<section id="education" class="section">
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+        {% for edu in site.data.resume.education %}
+        <div class="timeline-item">
+            <div class="header">
+                <h3>{{ edu.institution }}</h3>
+                <span class="date">{{ edu.startDate | date: "%Y" }} - {{ edu.endDate | date: "%Y" }}</span>
+            </div>
+            <div class="role">{{ edu.area }} {{ edu.studyType }}</div>
+            <div class="location">{{ edu.location }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

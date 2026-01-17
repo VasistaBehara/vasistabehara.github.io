@@ -1,0 +1,22 @@
+<section id="experience" class="section">
+    <div class="container">
+        <h2 class="section-title">Experience</h2>
+
+        {% for job in site.data.resume.work %}
+        <div class="timeline-item">
+            <div class="header">
+                <h3>{{ job.position }}</h3>
+                <span class="date">{{ job.startDate | date: "%b %Y" }} - {% if job.endDate == 'Current' %}Present{% else
+                    %}{{ job.endDate | date: "%b %Y" }}{% endif %}</span>
+            </div>
+            <div class="role">{{ job.company }} &bull; {{ job.location }}</div>
+            <p style="margin-bottom: 15px; color: #8b949e;">{{ job.summary }}</p>
+            <ul>
+                {% for highlight in job.highlights %}
+                <li>{{ highlight }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+</section>

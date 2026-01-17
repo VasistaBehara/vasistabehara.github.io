@@ -1,0 +1,27 @@
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="section-title">Projects & Contributions</h2>
+
+        <div class="github-stats">
+            <div class="stats-row">
+                <img src="https://github-readme-stats.vercel.app/api?username={{ site.github_username }}&show_icons=true&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&hide_border=true"
+                    alt="GitHub Stats">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ site.github_username }}&layout=compact&theme=dark&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide_border=true"
+                    alt="Top Languages">
+            </div>
+
+            <!-- Pinned Repos could represent specific projects. Requires pinning on GitHub Profile. -->
+            <!-- We can use github-readme-stats specific repo frame or just a link to profile -->
+            <div style="margin-top: 30px;">
+                <h3 style="margin-bottom: 20px;">GitHub Activity</h3>
+                <img src="https://ghchart.rshah.org/58a6ff/{{ site.github_username }}" alt="GitHub Contributions Graph"
+                    style="width: 100%; max-width: 800px;">
+            </div>
+
+            <div style="margin-top: 40px;">
+                <a href="https://github.com/{{ site.github_username }}?tab=repositories" class="btn btn-outline"
+                    target="_blank">View All Projects on GitHub</a>
+            </div>
+        </div>
+    </div>
+</section>
