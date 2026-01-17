@@ -799,6 +799,70 @@ section {
   color: #3776ab;
 }
 
+.project-stars {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.project-stars i {
+  color: #f1c40f;
+  font-size: 0.7rem;
+}
+
+/* Clickable project cards */
+a.github-project-card {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.github-project-card:hover .project-name {
+  color: var(--accent-primary);
+}
+
+/* Contribution Graph */
+.github-contributions {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.contributions-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.contributions-wrapper {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--card-radius);
+  padding: 1.5rem;
+  overflow-x: auto;
+}
+
+.contributions-graph {
+  max-width: 100%;
+  height: auto;
+  filter: brightness(0.95);
+}
+
+/* Loading state */
+.github-loading {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.github-loading i {
+  margin-right: 0.5rem;
+  color: var(--accent-primary);
+}
+
 /* ============================================
    Education Section
    ============================================ */
