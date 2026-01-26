@@ -493,16 +493,19 @@ across AWS and GCP
             // Render repos
             repos.slice(0, 6).forEach((repo, index) => {
                 const langColor = langColors[repo.language] || '#06b6d4';
-                const card = document.createElement('a');
-                card.href = repo.html_url;
-                card.target = '_blank';
+                const card = document.createElement('div');
                 card.className = 'github-project-card fade-in';
                 card.style.transitionDelay = `${index * 100}ms`;
+
+                // Make whole card clickable
+                card.onclick = () => window.open(repo.html_url, '_blank');
+                card.style.cursor = 'pointer';
 
                 card.innerHTML = `
                 <div class="project-icon"><i class="${getIcon(repo.name)}"></i></div>
                 <h3 class="project-name">${repo.name}</h3>
                 <p class="project-description">${repo.description || 'No description available'}</p>
+                ${repo.homepage ? `<a href="${repo.homepage}" target="_blank" class="project-website" onclick="event.stopPropagation()"><i class="fas fa-external-link-alt"></i> Live Demo</a>` : ''}
                 <div class="project-meta">
                     <span class="project-lang">
                         <i class="fas fa-circle" style="color: ${langColor}"></i> 
@@ -522,37 +525,38 @@ across AWS and GCP
             // Fallback to static content if API fails
             loading.style.display = 'none';
             container.innerHTML = `
-            <div class="github-project-card fade-in visible">
+            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/amazon-clone', '_blank')" style="cursor: pointer;">
                 <div class="project-icon"><i class="fab fa-amazon"></i></div>
                 <h3 class="project-name">amazon-clone</h3>
                 <p class="project-description">Amazon website clone built for learning web development</p>
                 <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #e34c26"></i> HTML</span></div>
             </div>
-            <div class="github-project-card fade-in visible">
+            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/netflix-clone', '_blank')" style="cursor: pointer;">
                 <div class="project-icon"><i class="fas fa-film"></i></div>
                 <h3 class="project-name">netflix-clone</h3>
                 <p class="project-description">Netflix UI clone for front-end practice</p>
                 <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #e34c26"></i> HTML</span></div>
             </div>
-            <div class="github-project-card fade-in visible">
+            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/driver-drowsiness-detection', '_blank')" style="cursor: pointer;">
                 <div class="project-icon"><i class="fas fa-eye"></i></div>
                 <h3 class="project-name">driver-drowsiness-detection</h3>
                 <p class="project-description">ML-based driver drowsiness detection system</p>
                 <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #3572A5"></i> Python</span></div>
             </div>
-            <div class="github-project-card fade-in visible">
+            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/learn-devops', '_blank')" style="cursor: pointer;">
                 <div class="project-icon"><i class="fas fa-server"></i></div>
                 <h3 class="project-name">learn-devops</h3>
                 <p class="project-description">DevOps learning resources and configurations</p>
                 <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #06b6d4"></i> DevOps</span></div>
             </div>
-            <div class="github-project-card fade-in visible">
+            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara/vasistabehara.github.io', '_blank')" style="cursor: pointer;">
                 <div class="project-icon"><i class="fas fa-user"></i></div>
                 <h3 class="project-name">vasistabehara.github.io</h3>
                 <p class="project-description">Personal portfolio website</p>
+                <a href="https://vasistabehara.github.io" target="_blank" class="project-website" onclick="event.stopPropagation()"><i class="fas fa-external-link-alt"></i> Live Demo</a>
                 <div class="project-meta"><span class="project-lang"><i class="fas fa-circle" style="color: #e34c26"></i> HTML</span></div>
             </div>
-            <div class="github-project-card fade-in visible">
+            <div class="github-project-card fade-in visible" onclick="window.open('https://github.com/VasistaBehara?tab=repositories', '_blank')" style="cursor: pointer;">
                 <div class="project-icon"><i class="fas fa-code-branch"></i></div>
                 <h3 class="project-name">Other Projects</h3>
                 <p class="project-description">View more projects on GitHub</p>
@@ -579,7 +583,7 @@ across AWS and GCP
             </div>
             <div class="education-card fade-in">
                 <h3 class="education-degree">B.Tech, Computer Science</h3>
-                <p class="education-school">Narasaraopeta Engineering College</p>
+                <p class="education-school">Narasaraopeta Engineering College (JNTUK)</p>
                 <p class="education-date"><i class="far fa-calendar"></i> 2013 – 2017 · India</p>
             </div>
         </div>
@@ -603,9 +607,6 @@ across AWS and GCP
                 </a>
                 <a href="https://github.com/VasistaBehara" target="_blank" class="contact-link">
                     <i class="fab fa-github"></i> GitHub
-                </a>
-                <a href="tel:+18073565984" class="contact-link">
-                    <i class="fas fa-phone"></i> +1 (807) 356-5984
                 </a>
             </div>
         </div>

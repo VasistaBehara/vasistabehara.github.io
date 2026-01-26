@@ -812,14 +812,46 @@ section {
   font-size: 0.7rem;
 }
 
-/* Clickable project cards */
-a.github-project-card {
-  text-decoration: none;
+/* Clickable project cards styles updated for div structure */
+.github-project-card {
+  position: relative;
   cursor: pointer;
+  /* Context for potential stretched links */
 }
 
-a.github-project-card:hover .project-name {
+.github-project-card:hover .project-name {
   color: var(--accent-primary);
+}
+
+.project-link {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.project-link:hover {
+  color: var(--accent-primary);
+}
+
+/* Project Website Link */
+.project-website {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--accent-primary);
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  width: fit-content;
+  position: relative;
+  /* Ensure it stacks correctly */
+  z-index: 2;
+  /* Ensure it is clickable above the card */
+}
+
+.project-website:hover {
+  text-decoration: underline;
+  opacity: 0.9;
 }
 
 /* Contribution Graph */
